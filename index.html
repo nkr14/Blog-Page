@@ -1,7 +1,37 @@
   <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+    <head>  
+
+      <meta charset="UTF-8">
+    <title>FUNdrive Page</title>
+    <style>
+        /* Remove default margins/padding and prevent horizontal scroll */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            width: 100%;
+            font-family: Inter, Futura, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        /* Make all images responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* General container to scale content relative to viewport */
+        .container {
+            width: 100%;
+            max-width: 1728px; /* optional, for max design width */
+            margin: 0 auto; /* center horizontally */
+            position: relative;
+        }    </style>
+</head>
+
       
 <div style="width: 1728px; height: 5289px; position: relative">
   <div style="width: 1728px; min-height: 100vh; left: 0px; top: 4728px; position: absolute; background: black; overflow-x: hidden">
